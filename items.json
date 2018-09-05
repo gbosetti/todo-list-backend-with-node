@@ -2,15 +2,15 @@
   "todos": [
     {
       "id": 1,
-      "title": "Buy vegetables"
+      "name": "Buy vegetables"
     },
     {
       "id": 2,
-      "title": "Send the letters"
+      "name": "Send the letters"
     },
     {
       "id": 3,
-      "title": "Pick up grandma's notebook"
+      "name": "Pick up grandma's notebook"
     }
   ]
 }
