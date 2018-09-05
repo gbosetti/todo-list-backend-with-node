@@ -21,14 +21,10 @@ class AuthComponent{
 
 var authComp = new AuthComponent(); 
 
-//server.use(JsonServer.defaults()); // to use default middlewares, as CORS or static
+server.use(JsonServer.defaults()); // to use default middlewares, as CORS or static
 server.use(require('body-parser').json()); // to make sure JSONs are parsed correctly
 
 server.use(function(req, res, next) {
-
-  // to allow cross origin 
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
   // to check aunthorization
   if (authComp.isAuthorized(req)) {
