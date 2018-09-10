@@ -1,16 +1,16 @@
 {
-  "todos": [
+  "items": [
     {
       "id": 2,
       "name": "Send the letters"
     },
     {
-      "id": 3,
-      "name": "Pick up grandma's notebook"
+      "name": "Buy pendrives",
+      "id": 4
     },
     {
-      "name": "aaaaaaaaa",
-      "id": 4
+      "name": "Reserve the class at 6",
+      "id": 5
     }
   ]
 }

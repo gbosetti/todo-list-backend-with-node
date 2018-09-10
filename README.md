@@ -1,6 +1,9 @@
 # todo-list-jsonserver-backend
 Backend with json-server for https://github.com/gbosetti/todo-list-with-angular-6
-It could be used interchangeably with https://github.com/gbosetti/todo-list-mongo-backend
+
+This service can be used interchangeably with:
+* [The Mongo-based backend](https://github.com/gbosetti/todo-list-mongo-backend)
+* [The Loopback-based backend](https://github.com/gbosetti/todo-list-loopback-backend)
 
 ## Setup
 
@@ -12,11 +15,10 @@ Install dependencies
 ```
 npm install
 ```
-Run
-```
-node server.js
-```
-You can use the frontend application to check the service is working or use some tool like curl: 
+
+## Use
+
+Run `node server.js`. Then, you can use the [frontend application](https://github.com/gbosetti/todo-list-with-angular-6) to check the service is working or use some tool like curl:
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"name": "demo"}' http://localhost:3000/todos
 ```
